@@ -1,0 +1,86 @@
+.sidebar {
+  width: 350px;
+  flex-shrink: 0;
+  padding: 20px 0;
+}
+
+.sidebar h2 {
+  font-size: 18px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.service-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: all 0.2s ease;
+}
+
+.service-header {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.service-icon {
+  font-size: 20px;
+  margin-right: 12px;
+  background-color: #f0f4f8;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.service-title {
+  flex: 1;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.arrow {
+  font-size: 20px;
+  color: var(--text-muted);
+}
+
+.service-details {
+  list-style: none;
+  padding: 0 16px 16px 68px;
+}
+
+.service-details li {
+  font-size: 14px;
+  color: var(--text-muted);
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.service-details li:last-child {
+  border-bottom: none;
+}
+
+.detail-icon {
+  margin-right: 8px;
+  font-size: 12px;
+}
+
+.small-arrow {
+  margin-left: auto;
+  color: #ccc;
+}

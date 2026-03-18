@@ -1,0 +1,3 @@
+Role: As a senior React Developer
+Objective to create a user interface for the following context 
+Context: please create a modern, attractive user interface for the purpose of showcasing. The app must take an input from the user, such as a number plate (an Indian number plate), and then, after that, it should use the API from other backend services to get JSON data and then use the data to display the various details of a vehicle. 

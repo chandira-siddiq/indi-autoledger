@@ -1,0 +1,48 @@
+.navbar {
+  background-color: darkgray;
+  color: var(--white);
+  padding: 10px 0;
+  width: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-text {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.navbar-links li a {
+  color: var(--white);
+  font-size: 16px;
+  transition: opacity 0.2s;
+}
+
+.navbar-links li a:hover {
+  opacity: 0.8;
+}
+
+.user-icon {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}

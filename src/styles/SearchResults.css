@@ -1,0 +1,98 @@
+.search-results {
+  padding: 20px 0;
+}
+
+.search-results-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.results-header h2 {
+  font-size: 18px;
+  color: var(--text-dark);
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.results-main-card {
+  background-color: var(--white);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+}
+
+.card-top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.vehicle-title h3 {
+  font-size: 24px;
+  margin: 0;
+  color: var(--text-dark);
+}
+
+.vehicle-title p {
+  margin: 4px 0 0;
+  color: var(--text-muted);
+}
+
+.registration-status {
+  background-color: var(--success-bg);
+  color: var(--success-green);
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.details-section {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.details-section h4 {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-top: 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid var(--border-color);
+  padding-bottom: 8px;
+}
+
+.details-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details-section li {
+  font-size: 14px;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.details-section li span {
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.rc-status, .insurance-status {
+  margin-top: 20px;
+}
+
+.middle-column, .right-column {
+  display: flex;
+  flex-direction: column;
+}
